@@ -43,3 +43,13 @@
 <input type="date" bind:value={dateStr} /> <br />
 <input bind:value={format} /> <br />
 {output}
+
+<div id="sourceLinkContainer">
+    <a href="https://github.com/arjunsatarkar/yyyymmdd">source code</a>
+</div>
+
+<style>
+    #sourceLinkContainer {
+        text-align: right;
+    }
+</style>
